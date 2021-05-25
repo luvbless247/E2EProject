@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-24T11:08:05 BST" name="Suite" finished-at="2021-05-24T11:09:55 BST" duration-ms="109793">
+    <groups>
+    </groups>
+    <test started-at="2021-05-24T11:08:05 BST" name="VALIDATING LOGIN PAGE" finished-at="2021-05-24T11:08:05 BST" duration-ms="27">
+    </test> <!-- VALIDATING LOGIN PAGE -->
+    <test started-at="2021-05-24T11:08:05 BST" name="VALIDATING MENTORSHIP PAGE" finished-at="2021-05-24T11:08:59 BST" duration-ms="53866">
+      <class name="GBE2EProject.Mentorship">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.Mentorship@1de5f0ef]" started-at="2021-05-24T11:08:05 BST" name="basePageNavigation" finished-at="2021-05-24T11:08:39 BST" duration-ms="34165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="MyMentorship()[pri:0, instance:GBE2EProject.Mentorship@1de5f0ef]" started-at="2021-05-24T11:08:39 BST" name="MyMentorship" finished-at="2021-05-24T11:08:50 BST" duration-ms="10793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMentorship -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.Mentorship@1de5f0ef]" started-at="2021-05-24T11:08:50 BST" name="tearDown" finished-at="2021-05-24T11:08:59 BST" duration-ms="8734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.Mentorship -->
+    </test> <!-- VALIDATING MENTORSHIP PAGE -->
+    <test started-at="2021-05-24T11:08:05 BST" name="VALIDATING HOMEPAGE" finished-at="2021-05-24T11:08:59 BST" duration-ms="53868">
+      <class name="GBE2EProject.HomePage">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.HomePage@366ef90e]" started-at="2021-05-24T11:08:05 BST" name="basePageNavigation" finished-at="2021-05-24T11:08:58 BST" duration-ms="52344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="getTitled()[pri:0, instance:GBE2EProject.HomePage@366ef90e]" started-at="2021-05-24T11:08:58 BST" name="getTitled" finished-at="2021-05-24T11:08:58 BST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.HomePage@366ef90e]" started-at="2021-05-24T11:08:58 BST" name="tearDown" finished-at="2021-05-24T11:08:59 BST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.HomePage -->
+    </test> <!-- VALIDATING HOMEPAGE -->
+    <test started-at="2021-05-24T11:08:05 BST" name="VALIDATING VALIDATION PAGE" finished-at="2021-05-24T11:08:59 BST" duration-ms="54112">
+      <class name="GBE2EProject.validation">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.validation@77602954]" started-at="2021-05-24T11:08:05 BST" name="basePageNavigation" finished-at="2021-05-24T11:08:58 BST" duration-ms="52268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="titleOfPage()[pri:0, instance:GBE2EProject.validation@77602954]" started-at="2021-05-24T11:08:58 BST" name="titleOfPage" finished-at="2021-05-24T11:08:58 BST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleOfPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.validation@77602954]" started-at="2021-05-24T11:08:58 BST" name="tearDown" finished-at="2021-05-24T11:08:59 BST" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.validation -->
+    </test> <!-- VALIDATING VALIDATION PAGE -->
+    <test started-at="2021-05-24T11:08:05 BST" name="VALIDATING NAVIGATION BAR" finished-at="2021-05-24T11:09:02 BST" duration-ms="56395">
+      <class name="GBE2EProject.NavigationBar">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.NavigationBar@6731787b]" started-at="2021-05-24T11:08:05 BST" name="basePageNavigation" finished-at="2021-05-24T11:08:56 BST" duration-ms="50312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="NavigationBarr()[pri:0, instance:GBE2EProject.NavigationBar@6731787b]" started-at="2021-05-24T11:08:56 BST" name="NavigationBarr" finished-at="2021-05-24T11:08:57 BST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBarr -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.NavigationBar@6731787b]" started-at="2021-05-24T11:08:57 BST" name="tearDown" finished-at="2021-05-24T11:09:02 BST" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.NavigationBar -->
+    </test> <!-- VALIDATING NAVIGATION BAR -->
+    <test started-at="2021-05-24T11:08:06 BST" name="VALIDATING FORGET PASSWORD" finished-at="2021-05-24T11:09:26 BST" duration-ms="79353">
+      <class name="GBE2EProject.ForgetPassword">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.ForgetPassword@2c104774]" started-at="2021-05-24T11:08:06 BST" name="basePageNavigation" finished-at="2021-05-24T11:08:57 BST" duration-ms="50812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="getForgetPasword()[pri:0, instance:GBE2EProject.ForgetPassword@2c104774]" started-at="2021-05-24T11:08:57 BST" name="getForgetPasword" finished-at="2021-05-24T11:09:26 BST" duration-ms="28234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getForgetPasword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.ForgetPassword@2c104774]" started-at="2021-05-24T11:09:26 BST" name="tearDown" finished-at="2021-05-24T11:09:26 BST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.ForgetPassword -->
+    </test> <!-- VALIDATING FORGET PASSWORD -->
+    <test started-at="2021-05-24T11:08:59 BST" name="VALIDATING LINK COUNT" finished-at="2021-05-24T11:09:26 BST" duration-ms="26916">
+      <class name="GBE2EProject.LinkCount">
+        <test-method is-config="true" signature="basePageNavigation()[pri:0, instance:GBE2EProject.LinkCount@427b5f92]" started-at="2021-05-24T11:08:59 BST" name="basePageNavigation" finished-at="2021-05-24T11:09:07 BST" duration-ms="7966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="getLinkCount()[pri:0, instance:GBE2EProject.LinkCount@427b5f92]" started-at="2021-05-24T11:09:07 BST" name="getLinkCount" finished-at="2021-05-24T11:09:25 BST" duration-ms="17990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLinkCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.LinkCount@427b5f92]" started-at="2021-05-24T11:09:25 BST" name="tearDown" finished-at="2021-05-24T11:09:26 BST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.LinkCount -->
+    </test> <!-- VALIDATING LINK COUNT -->
+    <test started-at="2021-05-24T11:08:59 BST" name="VALIDATING LOGIN PAGE READ FROM EXCEL" finished-at="2021-05-24T11:09:55 BST" duration-ms="55731">
+      <class name="GBE2EProject.LoginPageExcel">
+        <test-method signature="getLogin(java.lang.String, java.lang.String)[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:05 BST" name="getLogin" data-provider="data" finished-at="2021-05-24T11:09:28 BST" duration-ms="23321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[favour.amugh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[austine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:28 BST" name="tearDown" finished-at="2021-05-24T11:09:28 BST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getLogin(java.lang.String, java.lang.String)[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:28 BST" name="getLogin" data-provider="data" finished-at="2021-05-24T11:09:41 BST" duration-ms="12647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:41 BST" name="tearDown" finished-at="2021-05-24T11:09:41 BST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getLogin(java.lang.String, java.lang.String)[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:41 BST" name="getLogin" data-provider="data" finished-at="2021-05-24T11:09:55 BST" duration-ms="13427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2@home.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GBE2EProject.LoginPageExcel@346939bf]" started-at="2021-05-24T11:09:55 BST" name="tearDown" finished-at="2021-05-24T11:09:55 BST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GBE2EProject.LoginPageExcel -->
+    </test> <!-- VALIDATING LOGIN PAGE READ FROM EXCEL -->
+  </suite> <!-- Suite -->
+</testng-results>

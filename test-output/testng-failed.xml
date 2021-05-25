@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="GBE2EProject.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="VALIDATING LOGIN PAGE(failed)">
+    <classes>
+      <class name="GBE2EProject.LoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getLogin" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- GBE2EProject.LoginPage -->
+    </classes>
+  </test> <!-- VALIDATING LOGIN PAGE(failed) -->
+  <test thread-count="5" parallel="tests" name="VALIDATING FORGET PASSWORD(failed)">
+    <classes>
+      <class name="GBE2EProject.ForgetPassword">
+        <methods>
+          <include name="getForgetPasword"/>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- GBE2EProject.ForgetPassword -->
+    </classes>
+  </test> <!-- VALIDATING FORGET PASSWORD(failed) -->
+</suite> <!-- Failed suite [Suite] -->

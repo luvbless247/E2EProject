@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="GBE2EProject.Listener"/>
+</listeners>
+
+
+  <test name="VALIDATING HOMEPAGE">
+    <classes>
+    <class name="GBE2EProject.HomePage"/>
+    </classes>
+    </test>
+    
+    
+    <test name="VALIDATING LOGIN PAGE">
+        <classes>
+      <class name="GBE2EProject.LoginPage">
+      <methods>
+       <exclude name="getLogin"/>
+       </methods>
+       </class>
+       </classes>
+       </test>
+    
+    
+     <test name="VALIDATING MENTORSHIP PAGE">
+    <classes>
+      <class name="GBE2EProject.Mentorship"/>
+       </classes>
+    </test>
+    
+    <test name="VALIDATING VALIDATION PAGE">
+    <classes>
+      <class name="GBE2EProject.validation"/>
+       </classes>
+    </test>
+    
+    <test name="VALIDATING NAVIGATION BAR">
+    <classes>
+      <class name="GBE2EProject.NavigationBar"/>
+    </classes>
+    </test>
+    
+     <test name="VALIDATING FORGET PASSWORD">
+    <classes>
+      <class name="GBE2EProject.ForgetPassword"/>
+       </classes>
+     </test>
+     
+     
+    <test name="VALIDATING LINK COUNT">
+    <classes>
+    <class name="GBE2EProject.LinkCount"/>
+    </classes>
+    </test>
+    
+     <test name="VALIDATING LOGIN PAGE READ FROM EXCEL">
+    <classes>
+      <class name="GBE2EProject.LoginPageExcel"/>
+       </classes>
+    </test>
+  
+</suite> 
